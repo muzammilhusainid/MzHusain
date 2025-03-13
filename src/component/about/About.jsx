@@ -15,12 +15,12 @@ const About = () => {
                         <h1 className='text-5xl font-bold'>About Me</h1>
                     </div>
                     <div className="aboutMe pt-10 pb-20 flex justify-center items-center flex-wrap lg:flex-nowrap gap-10 ">
-                        <div className="aboutPic w-[336px] h-[400px] flex justify-center items-center relative hover:scale-105 duration-500">
+                        <div className="aboutPic w-[316px] md:w-[336px] h-[380px] md:h-[400px] flex justify-center items-center relative hover:scale-105 duration-500">
                             <div className="bg-gradient-to-tl from-[#1e1d8ae8] to-sky-500 w-32 h-32 absolute top-0 left-0"></div>
                             <div className="bg-gradient-to-br from-[#1e1d8ae8] to-sky-500 w-32 h-32 absolute bottom-0 right-0"></div>
-                            <img src={aboutPic} alt="aboutPic" className='w-80 h-96 z-10 drop-shadow-[0px_0px_10px_rgba(0,0,0,.5)]' />
+                            <img src={aboutPic} alt="aboutPic" className='w-[300px] md:w-80 h-[364px] md:h-96 z-10 drop-shadow-[0px_0px_10px_rgba(0,0,0,.5)]' />
                         </div>
-                        <div className="aboutDetail lg:w-3/5 w-full px-10 lg:px-0">
+                        <div className="aboutDetail lg:w-3/5 w-full px-5 lg:px-0">
                             <div className="about">
                                 <p className='flex flex-wrap text-justify'>A portfolio is a compilation of academic and professional materials that exemplifies your beliefs, skills, qualifications, education, training, and experiences. It provides insight into your personality and work ethic.
                                     A portfolio is a compilation of academic and professional materials that exemplifies your beliefs, skills, qualifications, education, training, and experiences. It provides insight into your personality and work ethic.

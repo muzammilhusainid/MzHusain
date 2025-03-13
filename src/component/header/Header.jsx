@@ -18,9 +18,9 @@ const Header = () => {
     const [darkMode, setDarkMode] = useState(false)
     return (
         <div className='absolute max-w-[1920px] w-full top-2 z-20'>
-            <div className="header flex justify-between items-center px-5 md:px-10 py-1.5">
-                <div className="logo text-2xl text-white font-bold">
-                    Muzammil Husain
+            <div className="header flex justify-between border items-center px-5 md:px-10 py-1.5">
+                <div className="logo md:text-2xl text-white font-bold">
+                    Mz Husain
                 </div>
                 <div className="right flex items-center jystify-center gap-10">
                     <div className="lightDark border-2 border-sky-500 rounded-full flex px-1 py-1 text-3xl text-white cursor-pointer" onClick={() => setDarkMode(!darkMode)}>

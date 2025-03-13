@@ -19,9 +19,9 @@ const hero = () => {
             <span className='bg-gradient-to-r from-red-500 from-80% to-purple-500 animate-spin h-full w-full rounded-full absolute'></span>
             <img src={HeroLogo} alt="" className='size-44 md:w-52 md:h-52 rounded-full z-10 ' />
           </div>
-          <div className='text-3xl md:text-5xl flex flex-col gap-3 items-center font-bold px-10'>
+          <div className='text-2xl md:text-5xl flex flex-col gap-3 items-center font-bold px-5 md:px-10'>
             <span className='bg-gradient-to-l from-sky-500 via-sky-500 to-[#1e1d8ae8] bg-clip-text text-transparent'>I'm Muzammil Husain</span>
-            <TypeAnimation className='text-2xl md:text-4xl text-gray-300'
+            <TypeAnimation className='text-lg md:text-4xl text-gray-300'
               sequence={[
                 // Same substring at the start will only be typed out once, initially
                 'A REACT Developer', 1000, // wait 1s before replacing "Mice" with "Hamsters"
@@ -47,7 +47,7 @@ const hero = () => {
           <div className="downArrow absolute bottom-0">
             <AnchorLink href="#projects" className=''><IoArrowDownCircleOutline className="size-10 text-gray-300 hover:text-white animate-bounce" /></AnchorLink>
           </div>
-          <div className="socialMedia text-2xl flex flex-col gap-5 absolute left-5 top-1/2 -translate-y-1/2 z-20">
+          <div className="socialMedia text-xl md:text-2xl flex flex-col gap-5 absolute left-2 md:left-5 top-1/2 -translate-y-1/2 z-20">
             <a href='mailto:muzammilhusainid@gmail.com' target='_blank'>
               <div className='group flex items-center w-fit relative'>
                 <SiGmail className='hover:text-orange-500 hover:scale-110 duration-200 cursor-pointer' />

@@ -9,7 +9,7 @@ import Footer from './component/footer/Footer'
 
 const App = () => {
   return (
-    <div className='flex justify-center'>
+    <div className=''>
       <div className='max-w-[1920px]'>
         <Header />
         <HeroSection />

@@ -38,7 +38,7 @@ const Contact = () => {
                         >
 
                             <Form>
-                                <div className='flex flex-col gap-5 my-10 px-10 md:px-20'>
+                                <div className='flex flex-col gap-5 my-10 px-5 lg:px-10 xl:px-20'>
                                     <div className="getInTouch flex justify-center text-xl">
                                         <h2>Let's Get in Touch</h2>
                                     </div>
@@ -84,42 +84,42 @@ const Contact = () => {
                                             <button type="submit" className="button w-full bg-gradient-to-l from-[#1e1d8ae8] to-sky-500 flex justify-center items-center py-2 text-white hover:cursor-pointer hover:bg-gradient-to-r hover:scale-105 duration-500 gap-2"><FaTelegramPlane />Send Message</button>
                                         </div>
                                         <div className="addressArea w-full relative group overflow-hidden hover:overflow-hidden">
-                                            <img src={banner107} alt="" className='w-full h-full duration-500 group-hover:scale-110 group-hover:duration-300 group-hover:ease-in-out' />
+                                            <img src={banner107} alt="addressImg" className='w-full h-full duration-500 group-hover:scale-110 group-hover:duration-300 group-hover:ease-in-out' />
                                             <div className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-r from-[#1e1d8ae8] to-sky-500 opacity-50"></div>
-                                            <div className="contact flex flex-col w-full gap-2 md:gap-10 absolute top-1/2 -translate-y-1/2 px-3 lg:px-10">
+                                            <div className="contact flex flex-col w-full gap-5 md:gap-10 absolute top-1/2 -translate-y-1/2 px-3 lg:px-5 xl:px-10">
                                                 <div className="email flex gap-x-2 items-center ">
-                                                    <div className="emailICon bg-white text-base md:text-3xl p-3 rounded-full">
+                                                    <div className="emailICon bg-white text-base md:text-3xl p-2 md:p-3 rounded-full">
                                                         <FiMail />
                                                     </div>
-                                                    <div className="emailAdd text-sm lg:text-base text-white">
+                                                    <div className="emailAdd text-xs md:text-sm lg:text-base text-white">
                                                         <p>E-MAIL</p>
                                                         <p>Muzammilhusainid@gmail.com</p>
                                                     </div>
                                                 </div>
                                                 <div className="whatsApp flex gap-x-2 items-center justify-end">
-                                                    <div className="wtNum text-sm lg:text-base text-white">
+                                                    <div className="wtNum text-xs md:text-sm lg:text-base text-white">
                                                         <p className='flex justify-end'>WHATSAPP</p>
                                                         <p>+91 8896638315</p>
                                                     </div>
-                                                    <div className="wtIcon bg-white text-base md:text-3xl p-3 rounded-full">
+                                                    <div className="wtIcon bg-white text-base md:text-3xl p-2 md:p-3 rounded-full">
                                                         <FaWhatsapp />
                                                     </div>
                                                 </div>
                                                 <div className="telephone flex gap-x-2 items-center">
-                                                    <div className="teleIcon bg-white text-base md:text-3xl p-3 rounded-full">
+                                                    <div className="teleIcon bg-white text-base md:text-3xl p-2 md:p-3 rounded-full">
                                                         <IoCallOutline />
                                                     </div>
-                                                    <div className="teleNum text-sm lg:text-base text-white">
+                                                    <div className="teleNum text-xs md:text-sm lg:text-base text-white">
                                                         <p>TELEPHONE</p>
                                                         <p>+91 8115067010</p>
                                                     </div>
                                                 </div>
                                                 <div className="address flex gap-x-2 justify-end items-center">
-                                                    <div className="add text-sm lg:text-base text-justify text-white">
+                                                    <div className="add text-xs md:text-sm lg:text-base text-justify text-white">
                                                         <p className='flex justify-end'>HEAD-OFFICE</p>
                                                         <p>Jais, Distt - Amethi 229305 U.P India</p>
                                                     </div>
-                                                    <div className="addIcon bg-white text-base md:text-3xl p-3 rounded-full">
+                                                    <div className="addIcon bg-white text-base md:text-3xl p-2 md:p-3 rounded-full">
                                                         <SlLocationPin />
                                                     </div>
                                                 </div>
@@ -131,8 +131,8 @@ const Contact = () => {
                         </Formik>
                     </div>
                     <AnchorLink href='#hero'>
-                        <div className="topArrow flex flex-col items-center justify-center size-12 rounded-full text-[#1e1d8ae8] border border-[#1e1d8ae8] bg-gray-100 absolute bottom-10 right-5 cursor-pointer hover:text-orange-500 hover:rotate-[360deg] duration-500">
-                            <GrLinkTop className='text-xl ' />
+                        <div className="topArrow flex flex-col items-center justify-center size-10 md:size-12 rounded-full text-[#1e1d8ae8] border border-[#1e1d8ae8] bg-gray-100 absolute bottom-2 lg:bottom-10 right-5 cursor-pointer hover:text-orange-500 hover:rotate-[360deg] duration-500">
+                            <GrLinkTop className='text-sm md:text-xl ' />
                             <p className='text-xs'>Top</p>
                         </div>
                     </AnchorLink>
