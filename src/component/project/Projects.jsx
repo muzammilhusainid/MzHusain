@@ -59,7 +59,7 @@ const Projects = () => {
                         </div>
                         <div className="projectDetails flex flex-col items-center justify-center w-3/4 md:w-full">
                                 <div className="projectTitle relative group">
-                                    <h1 className='text-4xl border font-bold text-violet-600'>Mini Projects</h1>
+                                    <h1 className='text-4xl font-bold text-violet-600'>Mini Projects</h1>
                                     <PiArrowBendUpLeftBold className='absolute top-1/2 -left-8 group-hover:-left-16 ease-out duration-300 -z-10 text-4xl text-violet-600 hidden md:block' />
                                 </div>
                                 <p className='mt-3 text-justify'>Here I created different types of mini projects in which I have used React, Tailwind CSS and other technologies so that it looks like cool & attractive.</p>
