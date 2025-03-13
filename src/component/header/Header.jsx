@@ -28,7 +28,7 @@ const Header = () => {
                         <FaCircle />
                         <IoSunny className={`${darkMode ? "w-0" : "scale-100 ms-4"} duration-300`} />
                     </div>
-                    <div className="menuButton flex justify-center text-sm md:text-base items-center gap-1 md:gap-2 py-1.5 md:py-2 px-3 md:px-5 hover:py-1 md:hover:py-1.5 hover:px-[10px] md:hover:px-[18px] overflow-hidden text-white font-bold bg-gradient-to-l from-[#1e1d8ae8] to-sky-500 cursor-pointer hover:bg-none hover:border-2 hover:border-sky-500" onClick={() => setShowMenubar(!showMenubar)}>
+                    <div className="menuButton flex justify-center text-sm md:text-base items-center gap-1 md:gap-2 py-1.5 md:py-2 px-3 md:px-5 hover:py-1 md:hover:py-1.5 hover:px-[10px] md:hover:px-[18px] overflow-hidden text-red-500 font-bold bg-gradient-to-l from-[#1e1d8ae8] to-sky-500 cursor-pointer hover:bg-none hover:border-2 hover:border-sky-500" onClick={() => setShowMenubar(!showMenubar)}>
                         Menu <GiHamburgerMenu className='text-xl' />
                     </div>
                 </div>
