@@ -17,23 +17,23 @@ const Header = () => {
     const [showMenubar, setShowMenubar] = useState(false)
     const [darkMode, setDarkMode] = useState(false)
     return (
-        <div className='absolute max-w-[1920px] w-full top-2 z-20'>
-            <div className="header flex justify-between border items-center px-5 md:px-10 py-1.5">
+        <div className='absolute max-w-[1920px] w-full md:top-2 z-20'>
+            <div className="header flex justify-between items-center px-2 md:px-7 py-1.5">
                 <div className="logo md:text-2xl text-white font-bold">
                     Mz Husain
                 </div>
-                <div className="right flex items-center jystify-center gap-10">
-                    <div className="lightDark border-2 border-sky-500 rounded-full flex px-1 py-1 text-3xl text-white cursor-pointer" onClick={() => setDarkMode(!darkMode)}>
+                <div className="right flex items-center jystify-center gap-3 md:gap-5">
+                    <div className="lightDark border-2 border-sky-500 rounded-full flex px-1 py-1 text-xl md:text-3xl text-white cursor-pointer" onClick={() => setDarkMode(!darkMode)}>
                         <BsFillMoonStarsFill className={`${darkMode ? "scale-100 me-4" : "w-0"} duration-300`} />
                         <FaCircle />
                         <IoSunny className={`${darkMode ? "w-0" : "scale-100 ms-4"} duration-300`} />
                     </div>
-                    <div className="menuButton flex justify-center items-center gap-2 py-2 px-5 hover:py-1.5 hover:px-[18px] overflow-hidden text-white font-bold bg-gradient-to-l from-[#1e1d8ae8] to-sky-500 cursor-pointer hover:bg-none hover:border-2 hover:border-sky-500" onClick={() => setShowMenubar(!showMenubar)}>
+                    <div className="menuButton flex justify-center items-center gap-1 md:gap-2 py-1 md:py-2 px-3 md:px-5 hover:py-1.5 hover:px-[18px] overflow-hidden text-white font-bold bg-gradient-to-l from-[#1e1d8ae8] to-sky-500 cursor-pointer hover:bg-none hover:border-2 hover:border-sky-500" onClick={() => setShowMenubar(!showMenubar)}>
                         Menu <GiHamburgerMenu className='text-xl' />
                     </div>
                 </div>
             </div>
-            <div className={`menuBar text-white bg-[#1e1d8ae8] ${showMenubar ? "w-80 duration-500" : " w-0 duration-500"} fixed top-0 bottom-0 right-0`}>
+            <div className={`menuBar text-white bg-[#1e1d8ae8] ${showMenubar ? "w-72 md:w-80 duration-500" : " w-0 duration-500"} fixed top-0 bottom-0 right-0`}>
                 <div className='relative h-full'>
                     <div className="cutMenu px-8 py-5 text-5xl flex justify-end">
                         <MdOutlineCancel className="cursor-pointer hover:text-orange-500" onClick={() => setShowMenubar(!showMenubar)} />
