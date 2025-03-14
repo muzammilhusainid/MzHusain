@@ -20,7 +20,7 @@ const Header = () => {
         <div className='absolute max-w-[1920px] w-full md:top-2 z-20'>
             <div className="header flex justify-between items-center px-2 md:px-7 py-1.5">
                 <div className="logo md:text-2xl text-white font-bold">
-                    Mz Husain
+                    <a href="https://mzhusain.vercel.app/">Mz Husain</a>
                 </div>
                 <div className="right flex items-center jystify-center gap-3 md:gap-5">
                     <div className="lightDark border-2 border-sky-500 rounded-full flex px-1 py-1 text-xl md:text-3xl text-white cursor-pointer" onClick={() => setDarkMode(!darkMode)}>
