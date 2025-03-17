@@ -6,7 +6,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { IoArrowDownCircleOutline } from "react-icons/io5";
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import MzResume from "../../assets/images/MzResumePHP.pdf"
+import MzHusainCVReact from "../../assets/images/MzHusainCVReact.pdf"
 import { TypeAnimation } from 'react-type-animation';
 
 
@@ -38,7 +38,7 @@ const hero = () => {
                 Contact Me
               </div>
             </AnchorLink>
-            <a href={MzResume} target='_blank'>
+            <a href={MzHusainCVReact} target='_blank'>
               <div className="resume px-5 py-1.5 hover:px-[22px] hover:py-[8px] flex justify-center items-center hover:bg-gradient-to-r from-sky-500 to-[#1e1d8ae8] text-white border-2 border-sky-500 hover:border-none cursor-pointer">
                 Download CV
               </div>
