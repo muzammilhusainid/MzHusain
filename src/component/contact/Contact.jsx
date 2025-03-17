@@ -26,8 +26,8 @@ const Contact = () => {
         <div>
             <div className="contactSection" id='contact'>
                 <div className="contactArea flex flex-col justify-center items-center relative">
-                    <div className="aboutTitle py-3 px-5 border-[#1e1d8ae8] border-2 rounded-b-xl">
-                        <h1 className='text-5xl font-bold'>Contact Us</h1>
+                    <div className="aboutTitle border-[#1e1d8ae8] border-2 rounded-b-xl">
+                        <h1 className='text-4xl md:text-5xl font-bold bg-gradient-to-r from-[#1e1d8ae8] to-sky-500 bg-clip-text text-transparent py-3 px-5'>Contact Us</h1>
                     </div>
                     <div className='w-full'>
 

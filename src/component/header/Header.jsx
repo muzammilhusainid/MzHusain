@@ -23,7 +23,7 @@ const Header = () => {
                     <a href="https://mzhusain.vercel.app/">Mz Husain</a>
                 </div>
                 <div className="right flex items-center jystify-center gap-3 md:gap-5">
-                    <div className="lightDark border-2 border-sky-500 rounded-full flex px-1 py-1 text-xl md:text-3xl text-white cursor-pointer" onClick={() => setDarkMode(!darkMode)}>
+                    <div className="lightDark border-2 border-sky-500 rounded-full flex px-1 py-1 text-xl md:text-2xl text-white cursor-pointer" onClick={() => setDarkMode(!darkMode)}>
                         <BsFillMoonStarsFill className={`${darkMode ? "scale-100 me-4" : "w-0"} duration-300`} />
                         <FaCircle />
                         <IoSunny className={`${darkMode ? "w-0" : "scale-100 ms-4"} duration-300`} />

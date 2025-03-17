@@ -11,8 +11,8 @@ const About = () => {
         <div>
             <div className="aboutSection" id="about">
                 <div className="aboutArea flex flex-col items-center justify-center">
-                    <div className="aboutTitle py-3 px-5 border-[#1e1d8ae8] border-2 rounded-b-xl">
-                        <h1 className='text-5xl font-bold'>About Me</h1>
+                    <div className="aboutTitle border-[#1e1d8ae8] border-2 rounded-b-xl">
+                        <h1 className='text-4xl md:text-5xl font-bold bg-gradient-to-r from-[#1e1d8ae8] to-sky-500 bg-clip-text text-transparent py-3 px-5'>About Me</h1>
                     </div>
                     <div className="aboutMe pt-10 pb-20 flex justify-center items-center flex-wrap lg:flex-nowrap gap-10 ">
                         <div className="aboutPic w-[316px] md:w-[336px] h-[380px] md:h-[400px] flex justify-center items-center relative hover:scale-105 duration-500">

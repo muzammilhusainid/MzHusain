@@ -8,8 +8,8 @@ const Services = () => {
         <div>
             <div className="serviceSection" id='services'>
                 <div className="service flex flex-col items-center justify-center px-5 md:px-10">
-                    <div className='py-3 px-5 border-[#1e1d8ae8] border-2 rounded-b-xl'>
-                        <h1 className='text-4xl md:text-5xl font-bold'>Our Services</h1>
+                    <div className=' border-[#1e1d8ae8] border-2 rounded-b-xl'>
+                        <h1 className='text-4xl md:text-5xl font-bold bg-gradient-to-r from-[#1e1d8ae8] to-sky-500 bg-clip-text text-transparent py-3 px-5'>Our Services</h1>
                     </div>
                     <div className="serviceCarSection flex justify-center items-center gap-8 lg:gap-x-16 flex-wrap pt-10 pb-20">
                         {service.map((items, index) => {

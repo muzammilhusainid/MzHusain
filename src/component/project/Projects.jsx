@@ -12,8 +12,8 @@ const Projects = () => {
         <div>
             <div className="projectSection" id="projects">
                 <div className="projectArea flex flex-col items-center justify-center px-5 md:px-10 relative pb-10">
-                    <div className="aboutTitle py-3 px-5 border-[#1e1d8ae8] border-b-2 border-l-2 border-r-2 rounded-b-xl bg-white relative z-10">
-                        <h1 className='text-4xl md:text-5xl font-bold'>My Projects</h1>
+                    <div className="aboutTitle border-[#1e1d8ae8] border-b-2 border-l-2 border-r-2 rounded-b-xl bg-white relative z-10">
+                        <h1 className='text-4xl md:text-5xl font-bold bg-gradient-to-r from-[#1e1d8ae8] to-sky-500 bg-clip-text text-transparent py-3 px-5'>My Projects</h1>
                     </div>
                     <div className="centerLine w-0.5 bg-[#1e1d8ae8] absolute top-0 bottom-0 -z-20 hidden md:block"></div>
                     <div className="leptopArea mt-10">
@@ -30,10 +30,13 @@ const Projects = () => {
                                         <PiArrowBendUpLeftBold className='absolute top-1/2 -left-8 group-hover:-left-16 ease-out duration-300 -z-10 text-4xl text-red-500 hidden md:block' />
                                     </div>
                                 </a>
-                                <p className='mt-3 text-justify'>Designed and developed this site from scratch using React and Tailwind to get the best results and used an external API to fetch the Goods & Items.</p>
-                                <ul className='flex gap-7 mt-5'>
-                                    <li className='border px-2 py-1'>React</li>
-                                    <li className='border px-2 py-1'>React</li>
+                                <p className='mt-3 text-justify'>Designed and developed this site with Attractive UI from scratch using React and Tailwind CSS to get the best results. Integrated external API for fetching product data and improved search functionality.</p>
+                                <ul className='flex flex-wrap gap-y-2 justify-center gap-3 mt-5 text-xs'>
+                                    <li className='border border-gray-400 px-2 py-1 rounded-full'>#React.js</li>
+                                    <li className='border border-gray-400 px-2 py-1 rounded-full'>#Toastify</li>
+                                    <li className='border border-gray-400 px-2 py-1 rounded-full'>#Tailwind Css</li>
+                                    <li className='border border-gray-400 px-2 py-1 rounded-full'>#React-Router</li>
+                                    <li className='border border-gray-400 px-2 py-1 rounded-full'>#Formik & Yup</li>
                                 </ul>
                             </div>
                             <div className="centerLine h-0.5 bg-red-500 absolute top-1/2 left-44 right-1/2 -z-20 hidden md:block"></div>
@@ -47,10 +50,13 @@ const Projects = () => {
                                         <PiArrowBendUpRightBold className='absolute top-1/2 -right-8 group-hover:-right-16 ease-out duration-300 -z-10 text-4xl text-sky-500 hidden md:block' />
                                     </div>
                                 </a>
-                                <p className='mt-3 text-justify'>Designed and developed this site from scratch using React and Tailwind to get the best results and used an external API to fetch the Goods & Items.</p>
-                                <ul className='flex gap-7 mt-5'>
-                                    <li className='border px-2 py-1'>React</li>
-                                    <li className='border px-2 py-1'>React</li>
+                                <p className='mt-3 text-justify'>Developed a personal portfolio showcasing skills and projectshosted on Vercel with optimized performance and responsive design. Used Formik and yup Library to create Contact Form and its Validation.</p>
+                                <ul className='flex flex-wrap gap-y-2 justify-center gap-3 mt-5 text-xs'>
+                                    <li className='border border-gray-400 px-2 py-1 rounded-full'>#React.js</li>
+                                    <li className='border border-gray-400 px-2 py-1 rounded-full'>#Tailwind Css</li>
+                                    <li className='border border-gray-400 px-2 py-1 rounded-full'>#React-Icons</li>
+                                    <li className='border border-gray-400 px-2 py-1 rounded-full'>#TypeAnimation</li>
+                                    <li className='border border-gray-400 px-2 py-1 rounded-full'>#Formik & Yup</li>
                                 </ul>
                             </div>
                             <div className="laptopImg relative w-full flex justify-center">
@@ -76,9 +82,14 @@ const Projects = () => {
                             </div>
                             </Link>
                             <p className='mt-3 text-justify'>Here I created different types of mini projects in which I have used React, Tailwind CSS and other technologies so that it looks like cool & attractive.</p>
-                            <ul className='flex gap-7 mt-5'>
-                                <li className='border px-2 py-1'>React</li>
-                                <li className='border px-2 py-1'>React</li>
+                            <ul className='flex flex-wrap justify-center gap-y-2 gap-3 mt-5 text-xs'>
+                                <li className='border border-gray-400 px-2 py-1 rounded-full'>#React.js</li>
+                                <li className='border border-gray-400 px-2 py-1 rounded-full'>#JavaScript</li>
+                                <li className='border border-gray-400 px-2 py-1 rounded-full'>#Html</li>
+                                <li className='border border-gray-400 px-2 py-1 rounded-full'>#Css</li>
+                                <li className='border border-gray-400 px-2 py-1 rounded-full'>#Tailwind Css</li>
+                                <li className='border border-gray-400 px-2 py-1 rounded-full'>#React Icons</li>
+                               
                             </ul>
                         </div>
                         <div className="centerLine h-0.5 bg-violet-600 absolute top-1/2 md:left-32 lg:left-60 right-1/2 -z-20 hidden md:block"></div>
