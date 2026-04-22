@@ -64,7 +64,7 @@ const Projects = () => {
                                     <img src={MzHusain} alt="" className='w-96 h-[230px] hover:scale-110 ease-in-out duration-300' />
                                 </a>
                             </div>
-                            <div className="centerLine h-0.5 bg-sky-500 absolute top-1/2 right-40 left-1/2 -z-20 hidden md:block"></div>
+                            <div className="centerLine h-0.5 bg-sky-500 absolute top-1/2 right-44 md:right-72 left-1/2 -z-20 hidden md:block"></div>
                             <FaCircleDot className='absolute bg-white text-xl text-sky-500 right-1/2 translate-x-1/2 top-1/2 -translate-y-1/2 hidden md:block' />
                         </div>
                     </div>
@@ -92,7 +92,7 @@ const Projects = () => {
                                
                             </ul>
                         </div>
-                        <div className="centerLine h-0.5 bg-violet-600 absolute top-1/2 md:left-32 lg:left-60 right-1/2 -z-20 hidden md:block"></div>
+                        <div className="centerLine h-0.5 bg-violet-600 absolute top-1/2 left-44 md:left-80 right-1/2 -z-20 hidden md:block"></div>
                         <FaCircleDot className='absolute bg-white text-xl text-violet-600 right-1/2 translate-x-1/2 top-1/2 -translate-y-1/2 hidden md:block' />
                     </div>
                 </div>
