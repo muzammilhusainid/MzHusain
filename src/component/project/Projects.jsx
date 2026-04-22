@@ -39,7 +39,7 @@ const Projects = () => {
                                     <li className='border border-gray-400 px-2 py-1 rounded-full'>#Formik & Yup</li>
                                 </ul>
                             </div>
-                            <div className="centerLine h-0.5 bg-red-500 absolute top-1/2 left-44 right-1/2 -z-20 hidden md:block"></div>
+                            <div className="centerLine h-0.5 bg-red-500 absolute top-1/2 left-44 md:left-72 right-1/2 -z-20 hidden md:block"></div>
                             <FaCircleDot className='absolute bg-white text-xl text-red-500 right-1/2 translate-x-1/2 top-1/2 -translate-y-1/2 hidden md:block' />
                         </div>
                         <div className="laptopSecond flex flex-wrap md:flex-nowrap gap-5 md:gap-40 mt-10 relative">
