@@ -1,5 +1,5 @@
 import React from 'react';
-import HeroLogo from "../../assets/images/HeroLogo.jpg"
+import HeroLogo from "../../assets/images/HeroLogo.png"
 import { SiGmail } from "react-icons/si";
 import { GrInstagram } from "react-icons/gr";
 import { FaLinkedinIn } from "react-icons/fa";
