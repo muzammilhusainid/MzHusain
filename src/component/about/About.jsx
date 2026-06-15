@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutPic from "../../assets/images/HeroLogo.jpg"
+import aboutPic from "../../assets/images/HeroLogo.png"
 import skills from "./SkillData"
 import qualification from './QualificationData';
 import { FaCircle } from "react-icons/fa";
