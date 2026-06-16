@@ -18,7 +18,7 @@ const About = () => {
                         <div className="aboutPic w-[316px] md:w-[336px] h-[380px] md:h-[400px] flex justify-center items-center relative hover:scale-105 duration-500">
                             <div className="bg-gradient-to-tl from-[#1e1d8ae8] to-sky-500 w-32 h-32 absolute top-0 left-0"></div>
                             <div className="bg-gradient-to-br from-[#1e1d8ae8] to-sky-500 w-32 h-32 absolute bottom-0 right-0"></div>
-                            <img src={aboutPic} alt="aboutPic" className='w-[300px] md:w-80 h-[364px] md:h-96 z-10 drop-shadow-[0px_0px_10px_rgba(0,0,0,.5)]' />
+                            <img src={aboutPic} alt="aboutPic" className='w-[300px] md:w-80 h-[364px] md:h-92 z-10 drop-shadow-[0px_0px_10px_rgba(0,0,0,.5)]' />
                         </div>
                         <div className="aboutDetail lg:w-3/5 w-full px-5 lg:px-0">
                             <div className="about">
